@@ -17,7 +17,7 @@ session_start()
     <?php 
         if(isset($_SESSION['email'])) {
             echo "<h1>welcome ".$_SESSION['firstname']." ".$_SESSION['lastname'] ."</h1>";
-          echo  '<form action="handleregister.php" method="post">
+          echo  '<form action="handleprocess.php" method="post">
                 <input type="submit" value="logout" name="logout">
             </form>';
         } else {

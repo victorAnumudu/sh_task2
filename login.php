@@ -40,7 +40,7 @@ if(isset($_GET['email'])){
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<form action="handleregister.php" method="post">
+<form action="handleprocess.php" method="post">
         <p class="heading">Login</p>
         <p class="<?php echo $class ?>"><?php echo $error ?></p>
         <div>
